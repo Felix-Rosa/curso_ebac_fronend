@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Formularios</h2>
+    <form>
+        <h3>Digite as seguintes informações</h3>
+        <label for="Nome">Seu nome</label>
+        <input id="Nome" type="text" placeholder="Nome">
+        <br>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="aaaaaa@aaaa.com.br">
+        <br>
+        <label for="tel"> Telefone</label>
+        <input id="tel" type="tel" placeholder="(99)99999-9999";">
+        <br>
+        <label for="num">Defina um numero</label>
+        <input id="num" type="number" max="20" min="1" style="width: 35px;">
+        <br>
+        <label id="arq">Inserir um arquivo</label>
+        <br>        
+        <input form="arq" type="file"> 
+        <br>
+        <label id="cor"> Cores </label>
+        <input form="cor" type="color">
+        <br>
+        <input type="checkbox"> <label> Aceitar termos</label> 
+        <p>
+        <label>Qual sua cor favorita? </label>
+        <br>
+        <input form="text" name="cor" type="radio" id="Vermelho"> <label form="Vermelho">Vermelho </label>
+        <input form="text" name="cor" type="radio"> <label>Azul </label>
+        <input form="text" name="cor" type="radio"> <label>Amarelo </label>
+        <input form="text" name="cor" type="radio"> <label>Outro </label>
+        <p>
+        <label>Qual é o seu filme favorito? </label>
+        <select>
+            <option> Filme A </option>
+            <option> Filme B </option>
+            <option> Filme c </option>
+        </select>
+        <p>
+        <label>De que animais você gosta? </label> <br>
+        <select multiple>
+            <option>Gato </option>
+            <option>Cachorro  </option>
+            <option>Furrão </option>
+            <option>Hamster </option>            
+        </select>
+        <br>
+        <label> Feedback</label>
+        <br>
+        <textarea style="height: 100px; width: 300px;"> </textarea>
+        <br>
+        <button type="submit">Enviar </button>
+        <button type="summit">Limpar respotas </button>
+        <hr>
+        <h3><address><a href="index.html">Voltar para o menu principal</a></address></h3>
+
+    </form>
+</body>
+</html>
